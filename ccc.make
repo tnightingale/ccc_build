@@ -16,7 +16,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.6"
 
 projects[emfield][subdir] = "contrib"
-projects[emfield] = "1.20"
+projects[emfield][version] = "1.20"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.3"
@@ -62,12 +62,14 @@ projects[fusion][version] = "1.0-rc1"
 projects[rubik][location] = http://code.developmentseed.org/fserver
 projects[rubik][version] = "1.0-beta8"
 
+projects[singular][location] = http://code.developmentseed.org/fserver
+
 projects[tao][location] = http://code.developmentseed.org/fserver
 projects[tao][version] = "1.10"
 
 projects[ccc][type] = "theme"
 projects[ccc][download][type] = "git"
-projects[ccc][download][url] = "git@github.com:thegreat/ccc_theme.git"
+projects[ccc][download][url] = "git://github.com/thegreat/ccc_theme.git"
 
 
 ;; DEVELOPMENT ;;
