@@ -39,6 +39,9 @@ projects[markdown][version] = "1.2"
 projects[typogrify][subdir] = "contrib"
 projects[typogrify][version] = "1.0"
 
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.7"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
@@ -53,6 +56,11 @@ projects[google_analytics][version] = "2.2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
+
+projects[autoload][subdir] = "contrib"
+projects[autoload][patch][] = "http://drupal.org/files/issues/autoload_0.patch"
+
+projects[soundmanager2][subdir] = "contrib"
 
 
 ;; THEMES ;;
@@ -86,3 +94,16 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+
+libraries[soundmanager2][download][type] = "git"
+libraries[soundmanager2][download][url] = "http://github.com/scottschiller/SoundManager2.git"
+libraries[soundmanager2][directory_name] = soundmanager2
+libraries[soundmanager2][destination] = libraries
+
+
+;; CUSTOM ;;
+
+project[dsc][type] = "module"
+project[dsc][download][type] = "git" 
+project[dsc][download][url] = "git://github.com/thegreat/Drupal-SoundCloud.git"
+project[dsc][subdir] = "custom"
