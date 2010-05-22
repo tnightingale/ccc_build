@@ -1,12 +1,5 @@
 core = 6.x
 
-;; CORE ;;
-
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.16.77/+download/pressflow-6.16.77.tar.gz"
-
-
 ;; CONTRIB ;;
 
 projects[admin][subdir] = "contrib"
@@ -61,6 +54,9 @@ projects[autoload][subdir] = "contrib"
 projects[autoload][patch][] = "http://drupal.org/files/issues/autoload_0.patch"
 
 projects[soundmanager2][subdir] = "contrib"
+
+projects[galleria][subdir] = "contrib"
+projects[jcarousel][subdir] = "contrib"
 
 
 ;; THEMES ;;
